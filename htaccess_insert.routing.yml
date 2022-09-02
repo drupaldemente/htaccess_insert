@@ -1,0 +1,7 @@
+htaccess_insert.settings:
+  path: '/admin/config/system/settings/htaccess-insert'
+  defaults:
+    _title: 'Htaccess insert'
+    _form: 'Drupal\htaccess_insert\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,10 @@
+services:
+  htaccess_insert_validator.commands:
+    class: Drupal\htaccess_insert\Commands\ValidatorCommands
+    tags:
+      - { name: drush.command }
+
+  htaccess_insert_insert.commands:
+    class: Drupal\htaccess_insert\Commands\InsertCommands
+    tags:
+      - { name: drush.command }

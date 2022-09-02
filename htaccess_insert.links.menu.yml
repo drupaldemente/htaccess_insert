@@ -1,0 +1,5 @@
+htaccess_insert.settings:
+  title: Htaccess insert
+  description: 'Insert additional rules inside the .htaccess.'
+  route_name: htaccess_insert.settings
+  parent: 'system.admin_config_development'

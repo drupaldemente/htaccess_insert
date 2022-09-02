@@ -1,0 +1,7 @@
+name: Htaccess insert
+type: module
+description: 'This module manages the htaccess file and its validations by command line and insert htaccess.'
+package: 'Custom'
+core_version_requirement: ^8 || ^9
+
+configure: htaccess_insert.settings
